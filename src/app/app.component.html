@@ -1,0 +1,37 @@
+<header></header>
+
+<nav>
+  <ul>
+    <li>
+      <a [routerLink]="['/view1']" routerLinkActive="active">
+        Dashboard
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/view2']" routerLinkActive="active">
+        Products
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/view3']" routerLinkActive="active">
+        Orders
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/view4']" routerLinkActive="active">
+        Customers
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/view5']" routerLinkActive="active">
+        Analytics
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
+
+<footer></footer>
